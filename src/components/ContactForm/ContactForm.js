@@ -22,10 +22,11 @@ const ContactForm = () => {
                     <div class="form-group">
                         <label>Service</label>
                         <select class="form-control">
+                            <option>Dental Check-up</option>
+                            <option>Root Canal Treatment</option>
                             <option>Teeth Whitening</option>
-                            <option>Teeth Whitening</option>
-                            <option>Teeth Whitening</option>
-                            <option>Teeth Whitening</option>
+                            <option>Cosmetic Dentistry</option>
+                            <option>Homoeopathic Treatment</option>
                         </select>
                     </div>
                 </div>
@@ -33,10 +34,10 @@ const ContactForm = () => {
                     <div class="form-group">
                         <label>Department</label>
                         <select class="form-control">
-                            <option>Select Department</option>
-                            <option>Select Department</option>
-                            <option>Select Department</option>
-                            <option>Select Department</option>
+                            <option>Dental Department</option>
+                            <option>Homoeopathy Department</option>
+                            <option>Cosmetic Dentistry</option>
+                            <option>Preventive Care</option>
                         </select>
                     </div>
                 </div>
@@ -57,7 +58,7 @@ const ContactForm = () => {
                         </div>
                         <div className='call-text'>
                             <p>Dental 24H Emergency</p>
-                            <h6>03 482 394 123</h6>
+                            <h6>Nikol, Ahmedabad</h6>
                         </div>
                     </div>
                 </div>

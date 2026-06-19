@@ -13,26 +13,26 @@ const Testimonial = () => {
     const testimonails = [
         {
             'img': imgOne,
-            'name': 'Robert Fox',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Priya Sharma',
+            'description' : 'Excellent dental care! The team at Veloura is professional and caring. My root canal treatment was painless and the results were amazing.',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgTwo,
-            'name': 'Albert Flores',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Rajesh Patel',
+            'description' : 'Best dental clinic in Nikol. The homeopathic treatment alongside my dental care made a huge difference. Highly recommend Veloura Dental!',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgThree,
-            'name': 'Bessie Cooper',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Meena Desai',
+            'description' : 'Very comfortable experience. The doctors are knowledgeable and the clinic is clean and modern. My smile has never looked better!',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgOne,
-            'name': 'Bessie Cooper',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Amit Shah',
+            'description' : 'I had teeth whitening done here and the results were fantastic. The staff is friendly and the service is top-notch. Will definitely return!',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         }
     ]
@@ -80,7 +80,7 @@ const Testimonial = () => {
                         />
                     </div>
                     <div className="col-lg-6">
-                        <p className="pt-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts </p>
+                        <p className="pt-5">Our patients trust us with their smiles and health. Read what they have to say about their experience at Veloura Dental and Homoeopathy in Ahmedabad.</p>
                     </div>
                 </div>
 

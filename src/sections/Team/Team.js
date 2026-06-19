@@ -33,15 +33,14 @@ const Team = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-7">
-                        <SectionTitle 
+                        <SectionTitle
                             subTitle="Meet our Team"
-                            title="Get to know the dentalist
-                            dental Team"
+                            title="Get to know the Veloura Dental and Homoeopathy Team"
                         />
                     </div>
 
                     <div className="col-lg-5">
-                        <p className='pt-5'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <p className='pt-5'>Our experienced dental and homeopathic professionals are dedicated to delivering quality healthcare with compassion, comfort, and professional excellence for patients of all ages.</p>
                     </div>
                 </div>
 

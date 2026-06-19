@@ -15,7 +15,7 @@ const Gallery = () => {
                 <SectionTitle 
                     subTitle="Gallery"
                     title="Some proof about our services for you"
-                    description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                    description="See the results of our dental and homeopathic treatments. At Veloura Dental and Homoeopathy, we take pride in transforming smiles and improving health in Ahmedabad."
                 />
                 <div className="row">
                     <div className="col-md-5 col-sm-6">

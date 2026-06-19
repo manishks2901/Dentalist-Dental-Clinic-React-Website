@@ -1,12 +1,12 @@
 
-# Dentalist - Dental Clinic React Website
+# Veloura dental - Dental Clinic React Website
 
-**Dentalist** is a Modern Responsive Website for Dental Clinic. It is built
+**Veloura dental** is a Modern Responsive Website for Dental Clinic. It is built
 with ReactJS, Bootstrap, and Sass. Dental clinic can use
 this template to bring their business online or increase business visibility.
 
 ## Live View
-[Dentalist](https://dentalist.netlify.app/)
+[Veloura dental](https://Veloura dental.netlify.app/)
 
 ## Tech Stack
 React, Bootstrap, SASS, React Router, React Slick, React Icons and AOS

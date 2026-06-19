@@ -20,8 +20,8 @@ const Banner = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="banner-text" data-aos="fade-up" data-aos-duration="2000">
-                                    <h1>Entrust your smile to professionals</h1>
-                                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                                    <h1>Expert Dental & Homeopathic Care Under One Roof</h1>
+                                    <p>Veloura Dental and Homoeopathy offers dental check-ups, root canal treatments, teeth whitening, cosmetic dentistry, and personalized homeopathic treatments in Ahmedabad.</p>
 
                                     <div className="banner-bottom">
                                         <div className="theme-btn">
@@ -34,7 +34,7 @@ const Banner = () => {
                                             </div>
                                             <div className='call-text'>
                                                 <p>Dental 24H Emergency</p>
-                                                <h6>03 482 394 123</h6>
+                                                <h6>Nikol, Ahmedabad</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -51,8 +51,8 @@ const Banner = () => {
                                             <img src={doctorImg} alt="doctor" />
                                         </div>
                                         <div className='info-text'>
-                                            <p>Dr. Samantha Alice</p>
-                                            <p><small>Consultant</small></p>
+                                            <p>Veloura Dental & Homoeopathy</p>
+                                            <p><small>Nikol, Ahmedabad</small></p>
                                         </div>
                                     </div>  
 

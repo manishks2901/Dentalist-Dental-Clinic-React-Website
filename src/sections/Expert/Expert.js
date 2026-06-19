@@ -11,24 +11,24 @@ const Expert = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
                         <div className="expert-text">
-                            <SectionTitle 
-                                subTitle="EXPERTS IN DENTAL"
-                                title="Top-notch dentistry, from Seattle's top dentists."
-                                description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts"
+                            <SectionTitle
+                                subTitle="EXPERTS IN DENTAL & HOMOEOPATHY"
+                                title="Top-notch dentistry and homeopathic care from Ahmedabad's trusted clinic."
+                                description="Our expert team at Veloura Dental and Homoeopathy delivers preventive, cosmetic, and restorative dental care alongside personalized homeopathic treatments."
                             />
 
                             <ul>
                                 <li>
                                     <BsFillCheckCircleFill />
-                                    Top quality dental team
+                                    Expert dental and homeopathic team
                                 </li>
                                 <li>
                                     <BsFillCheckCircleFill />
-                                    State of the art dental services
+                                    Modern, state-of-the-art dental services
                                 </li>
                                 <li>
                                     <BsFillCheckCircleFill />
-                                    Discount on all dental treatment
+                                    Comprehensive care for patients of all ages
                                 </li>
                             </ul>
                         </div>

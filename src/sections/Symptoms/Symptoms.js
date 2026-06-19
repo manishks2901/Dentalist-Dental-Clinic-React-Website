@@ -43,7 +43,7 @@ const Symptoms = () => {
                 <SectionTitle 
                     subTitle="Symptoms"
                     title="Sign and symptoms you need root canal"
-                    description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                    description="Recognizing these warning signs early can save your tooth. Visit Veloura Dental and Homoeopathy in Ahmedabad for a thorough evaluation and expert treatment."
                 />
 
                 <div className="row">

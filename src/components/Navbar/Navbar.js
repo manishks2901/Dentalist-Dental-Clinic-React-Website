@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar.scss';
-import logo from './../../assets/logo.png';
 import {Link} from 'react-router-dom';
 
 const Navbar = () => {
@@ -34,8 +33,8 @@ const Navbar = () => {
                 <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
                         {/* Logo */}
-                        <Link className="navbar-brand" to="/">
-                            <img src={logo} alt="logo" />
+                        <Link className="navbar-brand logo-text" to="/">
+                            Veloura Dental
                         </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

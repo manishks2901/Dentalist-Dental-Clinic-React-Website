@@ -9,7 +9,7 @@ const Safety = () => {
                 <SectionTitle 
                     subTitle="Safety"
                     title="We put the safety first"
-                    description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                    description="At Veloura Dental and Homoeopathy, patient safety is our top priority. We follow strict sterilization protocols and use modern, safe equipment for all procedures."
                 />
 
                 <div className="safety-video ratio ratio-16x9">

@@ -12,7 +12,7 @@ const Contactus = () => {
                 <Navbar />
                 <SectionTitle 
                     title="Contact Us"
-                    description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                    description="Reach out to Veloura Dental and Homoeopathy. Visit us at 1st Floor, Omkar Plaza, Bhakti Cir Rd, Ankur Chokadi, New India Colony, Nikol, Ahmedabad, Gujarat 380049."
                 />
             </section>
             <section className='contact-form-area' data-aos="fade-up" data-aos-duration="2000">

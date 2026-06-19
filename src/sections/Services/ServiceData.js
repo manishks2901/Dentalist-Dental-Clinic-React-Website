@@ -6,23 +6,23 @@ import iconFour from '../../assets/service/4.png';
 const ServicesData = [
     {
         'icon': iconOne,
-        'title': 'Dentures',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
+        'title': 'Dental Check-ups',
+        'description': 'Comprehensive dental examinations and preventive oral care for patients of all ages.',
     },
     {
         'icon': iconTwo,
-        'title': 'Implants',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
+        'title': 'Root Canal Treatment',
+        'description': 'Expert root canal treatments to relieve pain and save your natural tooth.',
     },
     {
         'icon': iconThree,
-        'title': 'Whitening',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
+        'title': 'Teeth Whitening',
+        'description': 'Professional teeth whitening and cosmetic dentistry to brighten your smile.',
     },
     {
         'icon': iconFour,
-        'title': 'Root Canal',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
+        'title': 'Homoeopathic Care',
+        'description': 'Personalized homeopathic treatments integrated with your dental care plan.',
     }
 ]
 

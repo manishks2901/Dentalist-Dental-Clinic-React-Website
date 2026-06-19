@@ -17,6 +17,18 @@
             img {
                 max-width: 150px;
             }
+
+            &.logo-text {
+                font-size: 22px;
+                font-weight: 700;
+                color: $color-black;
+                letter-spacing: -0.5px;
+                text-decoration: none;
+
+                &:hover {
+                    color: $color-blue;
+                }
+            }
         }
         .navbar-nav {
             .nav-item {

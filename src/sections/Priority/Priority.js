@@ -16,10 +16,10 @@ const Priority = () => {
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <div className="priority-text">
-                            <SectionTitle 
-                                subTitle="OUR PRIORITY" 
-                                title="Our clients are our priority"
-                                description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                            <SectionTitle
+                                subTitle="OUR PRIORITY"
+                                title="Our patients are our priority"
+                                description="At Veloura Dental and Homoeopathy, we deliver quality healthcare with compassion, comfort, and professional excellence. Your health and smile matter most to us."
                             />
 
                             <div className="theme-btn">
