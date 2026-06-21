@@ -7,6 +7,11 @@
     align-items: center;
     justify-content: center;
     font-family: $body-font;
+    transition: background 0.6s ease;
+
+    &--celebrating {
+        background: #0e1825;
+    }
 }
 
 .gate-content {
@@ -43,12 +48,22 @@
         font-weight: 700;
         letter-spacing: -1px;
         margin-bottom: 10px;
+
+        &--white {
+            animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+        }
     }
 
     .gate-tagline {
         color: #A3B5A4;
         font-size: 16px;
         margin-bottom: 48px;
+
+        &--bright {
+            color: #d4e8d4;
+            font-size: 18px;
+            animation: fadeSlideUp 0.5s 0.2s ease both;
+        }
     }
 
     .gate-form {
@@ -83,6 +98,7 @@
 
             &--error {
                 border-color: #d97070;
+                animation: shake 0.4s ease;
             }
         }
 
@@ -93,18 +109,20 @@
             color: #1A253E;
             border: none;
             border-radius: 14px;
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 700;
             cursor: pointer;
             letter-spacing: 0.5px;
-            transition: background 0.25s, transform 0.15s;
+            transition: background 0.25s, transform 0.15s, box-shadow 0.25s;
 
             &:hover {
                 background: #bfcebf;
+                transform: translateY(-2px);
+                box-shadow: 0 8px 24px rgba(163, 181, 164, 0.35);
             }
 
             &:active {
-                transform: scale(0.98);
+                transform: scale(0.97);
             }
         }
 
@@ -114,12 +132,56 @@
             margin: 0;
         }
     }
+
+    // Celebration state
+    .gate-celebrate {
+        animation: fadeSlideUp 0.4s ease both;
+
+        .gate-celebrate-emoji {
+            font-size: 72px;
+            line-height: 1;
+            margin-bottom: 20px;
+            animation: bounce 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+        }
+    }
+}
+
+// Animations
+@keyframes popIn {
+    0%   { opacity: 0; transform: scale(0.7); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeSlideUp {
+    0%   { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+    0%   { transform: scale(0) rotate(-10deg); }
+    60%  { transform: scale(1.2) rotate(5deg); }
+    80%  { transform: scale(0.95) rotate(-3deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%       { transform: translateX(-8px); }
+    40%       { transform: translateX(8px); }
+    60%       { transform: translateX(-5px); }
+    80%       { transform: translateX(5px); }
 }
 
 @media (max-width: 575px) {
     .gate-content {
         .gate-brand {
             font-size: 30px;
+        }
+
+        .gate-celebrate {
+            .gate-celebrate-emoji {
+                font-size: 56px;
+            }
         }
     }
 }
