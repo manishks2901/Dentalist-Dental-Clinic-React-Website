@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.scss';
-import { FaFacebookF, FaInstagram, FaTwitter} from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import call from '../../assets/footer/calling.png';
 import time from '../../assets/footer/time.png';
@@ -62,8 +62,6 @@ const Footer = () => {
                         <div className="social-logo">
                             <p>Follow us on</p>
                             <ul>
-                                <li><a href="/"><FaFacebookF/></a></li>
-                                <li><a href="/"><FaTwitter/></a></li>
                                 <li><a href="https://www.instagram.com/VELOURADENTAL" target="_blank" rel="noreferrer"><FaInstagram/></a></li>
                             </ul>
                         </div>
