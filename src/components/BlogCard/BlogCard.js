@@ -16,7 +16,7 @@ const BlogCard = ({blog}) => {
                     </div>
                 </div>
                 <div className="blog-text">
-                    <span><Link to="/">{category}</Link></span>
+                    <span><Link to="/blogs">{category}</Link></span>
                     <h3><Link to={`/blog/${url}`}>{title}</Link></h3>
                     <p>{description}</p>
                 </div>
