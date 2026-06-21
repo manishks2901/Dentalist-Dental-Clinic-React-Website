@@ -54,11 +54,11 @@ const SingleBlog = () => {
                                 <div className="sidebar-category mb-3">
                                     <h3 className="sidebar-heading">Categories</h3>
                                     <ul>
-                                        <li><Link href="/">Technology</Link></li>
-                                        <li><Link href="/">Root Canal</Link></li>
-                                        <li><Link href="/">Teeth</Link></li>
-                                        <li><Link href="/">Whitening</Link></li>
-                                        <li><Link href="/">Dentures</Link></li>
+                                        <li><Link to="/blogs">Technology</Link></li>
+                                        <li><Link to="/blogs">Root Canal</Link></li>
+                                        <li><Link to="/blogs">Teeth</Link></li>
+                                        <li><Link to="/blogs">Whitening</Link></li>
+                                        <li><Link to="/blogs">Dentures</Link></li>
                                     </ul>
                                 </div>
                             </div>

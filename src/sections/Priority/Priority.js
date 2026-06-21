@@ -23,7 +23,7 @@ const Priority = () => {
                             />
 
                             <div className="theme-btn">
-                                <Link to='/'>Book an appointment</Link>
+                                <Link to='/contact'>Book an appointment</Link>
                             </div>
                         </div>
                     </div>

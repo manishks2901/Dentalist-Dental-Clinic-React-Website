@@ -11,23 +11,23 @@ const Footer = () => {
     const footerMenu = [
         {
             'name' : 'About Us',
-            'link' : '/'
+            'link' : '/about'
         },
         {
             'name' : 'Dental Services',
-            'link' : '/'
+            'link' : '/singleservice'
         },
         {
             'name' : 'Dentist',
-            'link' : '/'
+            'link' : '/about'
         },
         {
             'name' : 'Blogs',
-            'link' : '/'
+            'link' : '/blogs'
         },
         {
-            'name' : 'FAQs',
-            'link' : '/'
+            'name' : 'Contact Us',
+            'link' : '/contact'
         }
     ];
 
@@ -64,7 +64,7 @@ const Footer = () => {
                             <ul>
                                 <li><a href="/"><FaFacebookF/></a></li>
                                 <li><a href="/"><FaTwitter/></a></li>
-                                <li><a href="/"><FaInstagram/></a></li>
+                                <li><a href="https://www.instagram.com/VELOURADENTAL" target="_blank" rel="noreferrer"><FaInstagram/></a></li>
                             </ul>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                             <p>Quick Links</p>
                             <ul>
                                 {
-                                    footerMenu.map(singleMenu => <li><Link to="/">{singleMenu.name}</Link></li>)
+                                    footerMenu.map(singleMenu => <li key={singleMenu.name}><Link to={singleMenu.link}>{singleMenu.name}</Link></li>)
                                 }
                             </ul>
                         </div>

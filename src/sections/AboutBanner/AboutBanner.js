@@ -18,7 +18,7 @@ const AboutBanner = () => {
                                     <p>We want you to feel amazing about your oral wellness. Not just twice a year, but every time you take a bite, tell a joke, laugh, or share a kiss.</p>
 
                                     <div className="theme-btn">
-                                        <Link to='/'>Contact Us</Link>
+                                        <Link to='/contact'>Contact Us</Link>
                                     </div>
                                 </div>
                             </div>

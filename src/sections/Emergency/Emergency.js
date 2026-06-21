@@ -19,7 +19,7 @@ const Emergency = () => {
                             <SectionTitle subTitle="Dental 24H Emergency" title="Gentle, friendly treatment from our Ahmedabad clinic." description="Veloura Dental and Homoeopathy is here for you in dental emergencies. Visit us at Omkar Plaza, Nikol, Ahmedabad — quality healthcare with compassion and comfort."/>
 
                             <div className="theme-btn">
-                                <Link to='/'>Book an appointment</Link>
+                                <Link to='/contact'>Book an appointment</Link>
                             </div>
                         </div>
                     </div>
