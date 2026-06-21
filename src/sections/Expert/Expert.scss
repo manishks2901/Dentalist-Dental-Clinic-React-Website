@@ -39,6 +39,34 @@
         z-index: 1;
         margin-bottom: 30px;
 
+        img {
+            border-radius: 20px;
+        }
+
+        .expert-name-badge {
+            margin-top: 18px;
+            background: $color-white;
+            border-left: 4px solid $color-sage;
+            padding: 12px 18px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(26, 37, 62, 0.08);
+            display: inline-block;
+
+            h5 {
+                font-size: 16px;
+                font-weight: 700;
+                color: $color-black;
+                margin-bottom: 2px;
+            }
+
+            p {
+                font-size: 13px;
+                color: $color-sage;
+                margin: 0;
+                font-weight: 500;
+            }
+        }
+
         &::before {
             position: absolute;
             content: "";

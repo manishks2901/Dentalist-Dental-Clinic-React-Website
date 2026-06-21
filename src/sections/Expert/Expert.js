@@ -2,7 +2,7 @@ import React from 'react';
 import './Expert.scss';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import { BsFillCheckCircleFill } from "react-icons/bs";
-import expertImg from '../../assets/expert.png';
+import expertImg from '../../assets/dr_shashin_desai.png';
 
 const Expert = () => {
     return (
@@ -35,7 +35,11 @@ const Expert = () => {
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <div className="expert-img">
-                            <img src={expertImg} alt="expert" />
+                            <img src={expertImg} alt="Dr. Shashin Desai" />
+                            <div className="expert-name-badge">
+                                <h5>Dr. Shashin Desai</h5>
+                                <p>Lead Dentist, Veloura Dental</p>
+                            </div>
                         </div>
                     </div>
                 </div>
