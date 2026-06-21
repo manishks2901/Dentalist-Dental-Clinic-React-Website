@@ -8,6 +8,7 @@ import BlogsPage from './pages/BlogsPage';
 import SingleBlog from './pages/SingleBlog/SingleBlog';
 import Contactus from './pages/Contact/Contactus';
 import GatePage from './pages/GatePage/GatePage';
+import CallCTA from './components/CallCTA/CallCTA';
 
 function App() {
   const [unlocked, setUnlocked] = useState(
@@ -24,14 +25,17 @@ function App() {
   }
 
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/singleservice" element={<Services />} />
-      <Route path="/blogs" element={<BlogsPage />} />
-      <Route path="/blog/:url" element={<SingleBlog />} />
-      <Route path="/contact" element={<Contactus />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/singleservice" element={<Services />} />
+        <Route path="/blogs" element={<BlogsPage />} />
+        <Route path="/blog/:url" element={<SingleBlog />} />
+        <Route path="/contact" element={<Contactus />} />
+      </Routes>
+      <CallCTA />
+    </>
   );
 }
 

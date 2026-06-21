@@ -34,7 +34,7 @@ const Footer = () => {
     const footerContacts = [
         {
             'title': 'Phone Number',
-            'info': 'Add business phone number',
+            'info': '+91 7802083597',
             'icon': call
         },
         {

@@ -28,15 +28,15 @@ const Banner = () => {
                                             <Link to="/contact">Book an appointment</Link>
                                         </div>
 
-                                        <div className="banner-call">
+                                        <a className="banner-call" href="tel:7802083597">
                                             <div className='icon'>
                                                 <img src={icon} alt="icon" />
                                             </div>
                                             <div className='call-text'>
-                                                <p>Dental 24H Emergency</p>
-                                                <h6>Nikol, Ahmedabad</h6>
+                                                <p>Call Us Now</p>
+                                                <h6>+91 7802083597</h6>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

@@ -52,15 +52,15 @@ const ContactForm = () => {
                     <button type="submit" class="btn appointment-btn">Book an appointment</button>
                 </div>
                 <div className="col-lg-6">
-                    <div className="appointment-call">
+                    <a className="appointment-call" href="tel:7802083597" style={{textDecoration:'none'}}>
                         <div className='icon'>
                             <img src={icon} alt="icon" />
                         </div>
                         <div className='call-text'>
-                            <p>Dental 24H Emergency</p>
-                            <h6>Nikol, Ahmedabad</h6>
+                            <p>Call Us Now</p>
+                            <h6>+91 7802083597</h6>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </form>
