@@ -12,7 +12,7 @@
     .single-blog-category {
         font-size: 12px;
         font-weight: 600;
-        color: $color-blue;
+        color: $color-sage;
         margin-bottom: 10px;
     }
 
@@ -30,9 +30,9 @@
     }
 
     .single-post-quote {
-        background: #583fbc1f;
+        background: #A3B5A41f;
         padding: 15px;
-        border-left: 2px solid $color-blue;
+        border-left: 2px solid $color-sage;
     }
 }
 
@@ -54,13 +54,13 @@
 
             li {
                 list-style: none;
-                border-bottom: 1px dashed #583fbc1f;
+                border-bottom: 1px dashed #A3B5A41f;
                 margin-bottom: 5px;
                 padding-bottom: 5px;
 
                 a {
                     text-decoration: none;
-                    color: $color-blue;
+                    color: $color-sage;
 
                     &:hover {
                         color: $color-black;
