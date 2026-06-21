@@ -1,0 +1,125 @@
+@import '../../sass/fonts.scss';
+
+.gate-page {
+    min-height: 100vh;
+    background: #1A253E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $body-font;
+}
+
+.gate-content {
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 420px;
+
+    .gate-logo {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 28px;
+
+        .gate-logo-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #A3B5A4;
+            opacity: 0.6;
+
+            &:nth-child(2) {
+                opacity: 1;
+                width: 14px;
+                height: 14px;
+                margin-top: -2px;
+            }
+        }
+    }
+
+    .gate-brand {
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 700;
+        letter-spacing: -1px;
+        margin-bottom: 10px;
+    }
+
+    .gate-tagline {
+        color: #A3B5A4;
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
+
+    .gate-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+
+        .gate-input {
+            width: 100%;
+            height: 54px;
+            border-radius: 14px;
+            border: 2px solid rgba(163, 181, 164, 0.35);
+            background: rgba(255, 255, 255, 0.07);
+            color: #ffffff;
+            font-size: 16px;
+            padding: 0 20px;
+            text-align: center;
+            outline: none;
+            transition: border-color 0.25s;
+            letter-spacing: 1px;
+
+            &::placeholder {
+                color: rgba(255, 255, 255, 0.35);
+                letter-spacing: 0;
+            }
+
+            &:focus {
+                border-color: #A3B5A4;
+                background: rgba(255, 255, 255, 0.1);
+            }
+
+            &--error {
+                border-color: #d97070;
+            }
+        }
+
+        .gate-btn {
+            width: 100%;
+            height: 54px;
+            background: #A3B5A4;
+            color: #1A253E;
+            border: none;
+            border-radius: 14px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            transition: background 0.25s, transform 0.15s;
+
+            &:hover {
+                background: #bfcebf;
+            }
+
+            &:active {
+                transform: scale(0.98);
+            }
+        }
+
+        .gate-error {
+            color: #d97070;
+            font-size: 13px;
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .gate-content {
+        .gate-brand {
+            font-size: 30px;
+        }
+    }
+}
