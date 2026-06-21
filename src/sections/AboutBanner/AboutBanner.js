@@ -14,8 +14,8 @@ const AboutBanner = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-5">
                                 <div className="about-banner-text">
-                                    <h2>About Us</h2>
-                                    <p>We want you to feel amazing about your oral wellness. Not just twice a year, but every time you take a bite, tell a joke, laugh, or share a kiss.</p>
+                                    <h2>About Veloura Dental</h2>
+                                    <p>Veloura Dental and Homoeopathy is your trusted healthcare partner in Nikol, Ahmedabad. We combine expert dental care with personalised homoeopathic treatments to deliver complete oral and holistic health — with compassion, comfort, and professional excellence for every patient.</p>
 
                                     <div className="theme-btn">
                                         <Link to='/contact'>Contact Us</Link>

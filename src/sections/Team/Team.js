@@ -1,32 +1,17 @@
 import React from 'react';
 import './Team.scss';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
-import imgOne from '../../assets/about/team/1.png';
-import imgTwo from '../../assets/about/team/2.png';
-import imgThree from '../../assets/about/team/3.png';
-import imgFour from '../../assets/about/team/4.png';
+import drShashin from '../../assets/dr_shashin_desai.png';
 
 const Team = () => {
 
     const teams = [
         {
-            'img': imgOne,
-            'name': 'Dianne Russell'
-        },
-        {
-            'img': imgTwo,
-            'name': 'Esther Howard'
-        },
-        {
-            'img': imgThree,
-            'name': 'Darrell Steward'
-        },
-        {
-            'img': imgFour,
-            'name': 'Jenny Wilson'
+            'img': drShashin,
+            'name': 'Dr. Shashin Desai',
+            'role': 'Lead Dentist & Founder'
         }
-    ]
-
+    ];
 
     return (
         <section className='team-section pt-100' data-aos="fade-up" data-aos-duration="2000">
@@ -35,24 +20,24 @@ const Team = () => {
                     <div className="col-lg-7">
                         <SectionTitle
                             subTitle="Meet our Team"
-                            title="Get to know the Veloura Dental and Homoeopathy Team"
+                            title="The expert behind Veloura Dental and Homoeopathy"
                         />
                     </div>
-
                     <div className="col-lg-5">
-                        <p className='pt-5'>Our experienced dental and homeopathic professionals are dedicated to delivering quality healthcare with compassion, comfort, and professional excellence for patients of all ages.</p>
+                        <p className='pt-5'>Our dedicated professional delivers quality dental and homoeopathic care with compassion, comfort, and excellence for every patient in Nikol, Ahmedabad.</p>
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row justify-content-center">
                     {
-                        teams.map (team => 
-                            <div className="col-lg-3 col-sm-6">
+                        teams.map((team, i) =>
+                            <div className="col-lg-3 col-sm-6" key={i}>
                                 <div className="team-card">
                                     <div className="team-img">
-                                        <img src={team.img} alt="" />
+                                        <img src={team.img} alt={team.name} />
                                     </div>
                                     <h3>{team.name}</h3>
+                                    <p className="team-role">{team.role}</p>
                                 </div>
                             </div>
                         )

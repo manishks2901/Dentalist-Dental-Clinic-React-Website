@@ -1,14 +1,14 @@
 import React from 'react';
 import './PageTitle.scss';
 
-const PageTitle = ({title,description}) => {
+const PageTitle = ({ title, description }) => {
     return (
         <div className='page-title'>
             <div className="container">
-                <h2>News & Articles</h2>
-                <p>Stays updated with our latest blog and news and get healthy tips & trick for oral health</p>
+                <h2>{title || 'Dental Health Blog'}</h2>
+                <p>{description || 'Stay updated with the latest dental health tips, treatment guides, and news from Veloura Dental and Homoeopathy, Nikol, Ahmedabad.'}</p>
             </div>
-        </div> 
+        </div>
     );
 };
 

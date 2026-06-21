@@ -1,3 +1,5 @@
+@import '../../sass/colors.scss';
+
 .safty-section {
     .section-title {
         text-align: center;
@@ -9,8 +11,35 @@
         }
     }
 
-    .safety-video {
-        max-width: 750px;
-        margin: auto;
+    .safety-card {
+        text-align: center;
+        padding: 30px 20px;
+        margin-bottom: 30px;
+        background: $color-white;
+        border-radius: 20px;
+        box-shadow: 0 4px 20px rgba(26, 37, 62, 0.07);
+        transition: transform 0.25s;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+
+        .safety-icon {
+            font-size: 36px;
+            color: $color-sage;
+            margin-bottom: 16px;
+        }
+
+        h4 {
+            font-size: 17px;
+            font-weight: 700;
+            color: $color-black;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
     }
 }

@@ -6,23 +6,23 @@ import iconFour from '../../assets/features/4.png';
 const featuresData = [
     {
         'icon': iconOne,
-        'title': 'Safety first',
-        'description': 'We prioritize safety with health checks and more'
+        'title': 'Patient Safety First',
+        'description': 'We follow strict sterilisation protocols and use modern, safe equipment for every procedure at Veloura Dental.'
     },
     {
         'icon': iconTwo,
-        'title': 'Insurance accepted',
-        'description': 'We’re in network with major insurers like Delta Dental, Aetna, and Cigna.'
+        'title': 'Affordable Care',
+        'description': 'Quality dental and homoeopathic care should be accessible to all. We offer transparent pricing and flexible payment options.'
     },
     {
         'icon': iconThree,
-        'title': 'Full-service dentistry',
-        'description': 'Our clinic offer a full  of dental service, from exams to implants and veneers.'
+        'title': 'Full-Service Clinic',
+        'description': 'From check-ups to root canals, teeth whitening, cosmetic dentistry, and homoeopathic treatments — all under one roof.'
     },
     {
         'icon': iconFour,
-        'title': 'No judgment ever',
-        'description': 'From floss bosses to sweet tooths, every mouth is welcome.'
+        'title': 'All Ages Welcome',
+        'description': 'We provide gentle, compassionate care for patients of all ages — from children to seniors — at Nikol, Ahmedabad.'
     }
 ]
 

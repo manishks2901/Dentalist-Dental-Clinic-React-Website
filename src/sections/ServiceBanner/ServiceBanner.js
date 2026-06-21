@@ -12,8 +12,8 @@ const ServiceBanner = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-5 col-md-6">
                                 <div className="service-banner-text" data-aos="fade-up" data-aos-duration="2000">
-                                    <h2>Root Canals</h2>
-                                    <p>Root canals have gotten a bad reputation, but us dentists don’t know why! These are the types of treatments that actually make you feel better!</p>
+                                    <h2>Our Dental Services</h2>
+                                    <p>From routine dental check-ups and root canal treatments to teeth whitening, cosmetic dentistry, and personalised homoeopathic care — Veloura Dental provides comprehensive healthcare under one roof at Nikol, Ahmedabad.</p>
                                     <div className="theme-btn">
                                         <Link to="/contact">Book an appointment</Link>
                                     </div>
